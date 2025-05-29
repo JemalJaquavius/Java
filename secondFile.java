@@ -18,7 +18,7 @@ public class secondFile {
     System.out.println(k + "is a number");
     staticMethod();
     int f = 1;
-    while (f < 10) {
+    while (f <= 10) {
       System.out.println(f);
       f++;;
     }
