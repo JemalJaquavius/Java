@@ -11,8 +11,7 @@ class userInput {
     Scanner Numbers = new Scanner(System.in);
     System.out.println("Enter two numbers");
     int number = Numbers.nextInt();
-    Scanner Numbers2 = new Scanner(System.in);
-    int number2 = Numbers2.nextInt();
+    int number2 = Numbers.nextInt();
 
     System.out.println(number + number2);
   }
