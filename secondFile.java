@@ -2,6 +2,9 @@ class secondFile {
   static void staticMethod() {
     System.out.println("This is a method");
   }
+  static void surName(String fname) {
+    System.out.println(fname + " Trivett");
+  }
   public static void main(String[] args) {
     System.out.println("This is another java file");
     Main myObj = new Main();
@@ -21,6 +24,11 @@ class secondFile {
     while (f <= 10) {
       System.out.println(f);
       f++;;
+    }
+    surName("Connor");
+    {
+      String connorTrivett = "Connor Trivett"
+      System.out.println(connorTrivett + " is " + connorTrivett)
     }
   }
 }
