@@ -2,3 +2,12 @@ p.text {
   background-color:red;
   font-family:cursive
 }
+.larry {
+  border:1px solid #ddd;
+  border-style:double;
+  padding:3px;
+  margin:25px;
+}
+.titleCenter {
+  text-align:center;
+}
