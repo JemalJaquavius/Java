@@ -11,5 +11,9 @@ class userInput {
     Scanner Numbers = new Scanner(System.in);
     System.out.println("Enter two numbers");
     String number = Numbers.nextLine();
+    Scanner Numbers2 = new Scanner(System.in);
+    String number2 = Numbers2.nextLine();
+
+    System.out.println(number + number2);
   }
 }
