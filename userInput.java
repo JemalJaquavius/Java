@@ -1,11 +1,6 @@
 import java.util.Scanner;
 
 class userInput {
-  Scanner userName2 = new Scanner(System.in);
-    System.out.println("enter username:");
-
-    String userName = userName2.nextLine();
-    System.out.println("Welcome, " + userName);
   public static void main(String[] args) {
     Scanner nameOfUser = new Scanner(System.in);
     System.out.println("enter username:");
