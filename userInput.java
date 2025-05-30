@@ -10,9 +10,9 @@ class userInput {
 
     Scanner Numbers = new Scanner(System.in);
     System.out.println("Enter two numbers");
-    String number = Numbers.nextLine();
+    int number = Numbers.nextInt();
     Scanner Numbers2 = new Scanner(System.in);
-    String number2 = Numbers2.nextLine();
+    int number2 = Numbers2.nextInt();
 
     System.out.println(number + number2);
   }
