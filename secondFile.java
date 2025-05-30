@@ -30,5 +30,7 @@ class secondFile {
       String connorTrivett = "Connor Trivett"
       System.out.println(connorTrivett + " is " + connorTrivett)
     }
+    myObj.test();
+    System.out.println("This is Java")
   }
 }
