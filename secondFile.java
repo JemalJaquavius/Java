@@ -1,4 +1,4 @@
-public class secondFile {
+class secondFile {
   static void staticMethod() {
     System.out.println("This is a method");
   }
