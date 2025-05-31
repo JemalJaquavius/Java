@@ -13,6 +13,6 @@ class userInput {
     int number = Numbers.nextInt();
     int number2 = Numbers.nextInt();
 
-    System.out.println(number + number2);
+    System.out.println(number + " plus " + number2 + " is equal to " + number + number2);
     }
 }
