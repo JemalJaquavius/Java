@@ -10,7 +10,7 @@ class userInput2 {
       System.out.println("Enter 5-digit password:");
       String passwordInput = Password.nextLine();
     
-    if (passwordInput = 18725) {
+    if (passwordInput == 18725) {
       System.out.println("Correct password");
       
     } else {
