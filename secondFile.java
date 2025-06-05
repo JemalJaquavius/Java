@@ -5,6 +5,9 @@ class secondFile {
   static void surName(String fname) {
     System.out.println(fname + " Trivett");
   }
+  static void the(String The) {
+    System.out.println(The + " Larry.");
+  }
   public static void main(String[] args) {
     System.out.println("This is another java file");
     Main myObj = new Main();
@@ -26,11 +29,19 @@ class secondFile {
       f++;;
     }
     surName("Connor");
-    {
-      String connorTrivett = "Connor Trivett"
-      System.out.println(connorTrivett + " is " + connorTrivett)
+    the("Barry");
+    String connorTrivett = "Connor Trivett"
+    System.out.println(connorTrivett + " is " + connorTrivett)
     }
     myObj.test();
     System.out.println("This is Java")
+    Sponge cool = new Sponge();
+    System.out.println(cool.text);
   }
+private static void Sponge{
+  String text;
+  public Sponge() {
+    text = "Spingelbob CircleTrousers";
+  }
+}
 }
